@@ -10,6 +10,7 @@ import { DettaglioAutoComponent } from './components/dettaglio-auto/dettaglio-au
 import { RicercaComponent } from './components/ricerca/ricerca.component';
 import { HomeComponent } from './components/home/home.component';
 import { PreviewComponent } from './components/preview/preview.component';
+import { ServicesComponent } from './components/services/services.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PreviewComponent } from './components/preview/preview.component';
     DettaglioAutoComponent,
     RicercaComponent,
     HomeComponent,
-    PreviewComponent
+    PreviewComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
