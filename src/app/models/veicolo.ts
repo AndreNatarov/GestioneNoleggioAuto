@@ -2,7 +2,8 @@ export class Veicolo{
 
     constructor(
 
-        public marca:number,
+        public tagTendenza: boolean,
+        public marca:string,
         public modello:string,
         public prezzoGiornaliero:number,
         public optional:string,         //Come gestiamo i vari optional? Valore da mettere in un array che corrisponde ad un specifico optional?
@@ -12,8 +13,7 @@ export class Veicolo{
         public patente:string, 
         public immagine:boolean,    //true = DX, false = SX
         //Bisogna aggiungere specifiche del veicolo (array di array?)
-        public tagTendenza: boolean,
-
+        
     ){}
 
 }
