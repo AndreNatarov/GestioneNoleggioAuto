@@ -5,18 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ComponentsComponent } from './components/components.component';
 import { AutoComponent } from './components/auto/auto.component';
-import { ChiSiamoComponent } from './components/chi-siamo/chi-siamo.component';
 import { AboutComponent } from './components/about/about.component';
 import { DettaglioAutoComponent } from './components/dettaglio-auto/dettaglio-auto.component';
+import { RicercaComponent } from './components/ricerca/ricerca.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ComponentsComponent,
     AutoComponent,
-    ChiSiamoComponent,
     AboutComponent,
-    DettaglioAutoComponent
+    DettaglioAutoComponent,
+    RicercaComponent
   ],
   imports: [
     BrowserModule,
