@@ -7,7 +7,7 @@ import { ComponentsComponent } from './components/components.component';
 import { AboutComponent } from './components/about/about.component';
 import { DettaglioAutoComponent } from './components/dettaglio-auto/dettaglio-auto.component';
 import { RicercaComponent } from './components/ricerca/ricerca.component';
-import { HomeComponent } from './components/home/home.component';
+import { HeaderComponent } from './components/header/header.component';
 import { PreviewComponent } from './components/preview/preview.component';
 import { ServicesComponent } from './components/services/services.component';
 import { ModulesComponent } from './components/modules/modules.component';
@@ -21,7 +21,7 @@ import { TemplatesComponent } from './components/templates/templates.component';
     AboutComponent,
     DettaglioAutoComponent,
     RicercaComponent,
-    HomeComponent,
+    HeaderComponent,
     PreviewComponent,
     ServicesComponent,
     ModulesComponent,
