@@ -9,12 +9,12 @@ export class VeicoloService{
             'Honda',
             'CBR 1000',
             250,
-            'GPS',
+            'GPS',              //Come gestiamo vari optional?
             32945,
-            'Moto',
+            'Moto',             //tag sostituirli con array?
             'Giappone',
             'A3',
-            true,
+            true,   //true = destra && false = sinistra
 
         )
 
