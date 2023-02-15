@@ -13,6 +13,8 @@ import { ServicesComponent } from './components/services/services.component';
 import { ModulesComponent } from './components/modules/modules.component';
 import { VeicoloComponent } from './components/modules/veicolo/veicolo.component';
 import { TemplatesComponent } from './components/templates/templates.component';
+import { RicercaHomeComponent } from './components/ricerca-home/ricerca-home.component';
+import { TendenzaComponent } from './components/tendenza/tendenza.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { TemplatesComponent } from './components/templates/templates.component';
     ServicesComponent,
     ModulesComponent,
     VeicoloComponent,
-    TemplatesComponent
+    TemplatesComponent,
+    RicercaHomeComponent,
+    TendenzaComponent
   ],
   imports: [
     BrowserModule,
