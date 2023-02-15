@@ -9,6 +9,7 @@ import { AboutComponent } from './components/about/about.component';
 import { DettaglioAutoComponent } from './components/dettaglio-auto/dettaglio-auto.component';
 import { RicercaComponent } from './components/ricerca/ricerca.component';
 import { HomeComponent } from './components/home/home.component';
+import { PreviewComponent } from './components/preview/preview.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeComponent } from './components/home/home.component';
     AboutComponent,
     DettaglioAutoComponent,
     RicercaComponent,
-    HomeComponent
+    HomeComponent,
+    PreviewComponent
   ],
   imports: [
     BrowserModule,
