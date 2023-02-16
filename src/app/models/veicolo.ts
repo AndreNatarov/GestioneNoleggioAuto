@@ -2,11 +2,12 @@ export class Veicolo{
 
     constructor(
 
+        public id:number,
         public tagTendenza: boolean,
         public marca:string,
         public modello:string,
         public numeroPosti:number,
-        public cambio:number,       //0 = Manuale, 1 = Sequenziale
+        public cambio:number,       //0 = Manuale, 1 = Sequenziale, 2 = Automatico
         public cilindrata:number,
         public cavalli:number,
         public carburante:number,   //0 = benzina, 1 = gasolio
