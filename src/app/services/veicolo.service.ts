@@ -6,6 +6,7 @@ export class VeicoloService{
 
         new Veicolo(
 
+            1,
             true,
             'Honda',
             'CBR 1000',
@@ -29,6 +30,7 @@ export class VeicoloService{
         
         new Veicolo(
 
+            2,
             true,
             'Mazda',
             'Az1',
@@ -52,6 +54,7 @@ export class VeicoloService{
 
         new Veicolo(
 
+            3,
             false,
             'Mercedes-Benz',
             'CLK GTR',
@@ -75,6 +78,7 @@ export class VeicoloService{
 
         new Veicolo(
 
+            4,
             false,
             'Lamborghini',
             'Countach',
@@ -98,6 +102,7 @@ export class VeicoloService{
 
         new Veicolo(
 
+            5,
             false,
             'Daf',
             '2021',
@@ -121,6 +126,7 @@ export class VeicoloService{
 
         new Veicolo(
 
+            6,
             true,
             'Ducati',
             'Street Fighter',
@@ -144,6 +150,7 @@ export class VeicoloService{
 
         new Veicolo(
 
+            7,
             true,
             'BMW',
             'E30 M3',
@@ -167,6 +174,7 @@ export class VeicoloService{
 
         new Veicolo(
 
+            8,
             false,
             'BMW',
             'E92 M3',
@@ -188,31 +196,10 @@ export class VeicoloService{
 
         ),
 
-        new Veicolo(
-
-            true,
-            'BMW',
-            'E30 M3',
-            4,
-            0,
-            3999,
-            350,
-            0,
-            200,
-            'GPS',
-            'Sedili riscaldati',
-            'Sensori parcheggio',
-            5433,
-            0,
-            0,
-            'B',
-            true,
-            'E30M3'
-
-        ),
 
         new Veicolo(
 
+            9,
             false,
             'Mitsubishi',
             'Eclipse',
@@ -221,20 +208,90 @@ export class VeicoloService{
             1997,
             145,
             0,
-            200,
+            150,
             'GPS',
             'Sedili riscaldati',
             'Sensori parcheggio',
-            5433,
+            2123,
+            0,
+            1,
+            'B',
+            true,
+            'Eclipse'
+
+        ),
+
+        new Veicolo(
+
+            10,
+            true,
+            'Mitsubishi',
+            'Lancer Evo X',
+            4,
+            0,
+            2000,
+            300,
+            0,
+            150,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensori parcheggio',
+            12445,
+            0,
+            1,
+            'B',
+            true,
+            'EvoX'
+
+        ),
+
+        new Veicolo(
+
+            11,
+            true,
+            'Fiat',
+            '500',
+            4,
+            0,
+            499.5,
+            18,
+            0,
+            150,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensori parcheggio',
+            54549,
             0,
             0,
             'B',
             true,
-            'E30M3'
+            'Fiat500'
 
         ),
 
+        new Veicolo(
 
+            12,
+            true,
+            'Ford',
+            '500',
+            4,
+            0,
+            499.5,
+            18,
+            0,
+            150,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensori parcheggio',
+            54549,
+            0,
+            0,
+            'B',
+            true,
+            'Fiat500'
+
+        ),
 
     ]
 
