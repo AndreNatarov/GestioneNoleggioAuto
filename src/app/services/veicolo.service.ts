@@ -381,8 +381,8 @@ export class VeicoloService{
             'Sedili riscaldati',
             'Sensori parcheggio',
             205213,
-            1,
-            1,
+            2,
+            0,
             'C',
             true,
             'IvecoCamion.png'
@@ -397,7 +397,7 @@ export class VeicoloService{
             'TGX Euro 6',
             2,
             2,
-            7790,
+            12419,
             470,
             1,
             780,
@@ -405,13 +405,134 @@ export class VeicoloService{
             'Sedili riscaldati',
             'Sensori parcheggio',
             205213,
-            1,
-            1,
+            2,
+            0,
             'C',
             true,
             'ManCamion.png'
 
         ),
+
+        new Veicolo(
+
+            18,
+            false,
+            'Mercedes-Benz',
+            'Actros',
+            2,
+            2,
+            12809,
+            625,
+            1,
+            850,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensori parcheggio',
+            326924,
+            2,
+            0,
+            'C',
+            true,
+            'MercedesCamion.png'
+
+        ),
+
+        new Veicolo(
+
+            19,
+            true,
+            'Mazda',
+            'MR2',
+            2,
+            0,
+            1998,
+            156,
+            0,
+            200,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensori parcheggio',
+            20213,
+            0,
+            1,
+            'B',
+            true,
+            'MR2.png'
+
+        ),
+
+        new Veicolo(
+
+            20,
+            false,
+            'Mazda',
+            'Mx-5',
+            2,
+            0,
+            1597,
+            110,
+            0,
+            180,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensori parcheggio',
+            56846,
+            0,
+            1,
+            'B',
+            true,
+            'MX5.png'
+
+        ),
+
+        new Veicolo(
+
+            21,
+            false,
+            'Honda',
+            'NSX',
+            2,
+            0,
+            3197,
+            280,
+            0,
+            250,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensori parcheggio',
+            21459,
+            0,
+            1,
+            'B',
+            true,
+            'MX5.png'
+
+        ),
+
+        new Veicolo(
+
+            22,
+            false,
+            'Renault',
+            'Sleeper',
+            2,
+            2,
+            12800,
+            480,
+            1,
+            860,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensori parcheggio',
+            657855,
+            0,
+            1,
+            'C',
+            true,
+            'RenaultCamion.png'
+
+        ),
+
 
         
 
