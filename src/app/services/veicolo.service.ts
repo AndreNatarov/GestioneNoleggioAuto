@@ -478,7 +478,7 @@ export class VeicoloService{
             'Sensori parcheggio',
             56846,
             0,
-            1,
+            0,
             'B',
             true,
             'MX5.png'
@@ -502,17 +502,17 @@ export class VeicoloService{
             'Sensori parcheggio',
             21459,
             0,
-            1,
+            0,
             'B',
             true,
-            'MX5.png'
+            'NSX.png'
 
         ),
 
         new Veicolo(
 
             22,
-            false,
+            true,
             'Renault',
             'Sleeper',
             2,
@@ -526,14 +526,204 @@ export class VeicoloService{
             'Sensori parcheggio',
             657855,
             0,
-            1,
+            0,
             'C',
             true,
             'RenaultCamion.png'
 
         ),
 
+        new Veicolo(
 
+            23,
+            false,
+            'Mazda',
+            'RX7 FD',
+            2,
+            0,
+            1308,
+            239,
+            0,
+            220,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensori parcheggio',
+            48648,
+            0,
+            1,
+            'B',
+            true,
+            'RX7FD.png'
+
+        ),
+
+        new Veicolo(
+
+            24,
+            false,
+            'Scania',
+            'Streamline Highline',
+            2,
+            2,
+            16350,
+            730,
+            1,
+            900,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensori parcheggio',
+            336494,
+            2,
+            0,
+            'C',
+            true,
+            'ScaniaCamion.png'
+
+        ),
+
+        new Veicolo(
+
+            25,
+            false,
+            'Nissan',
+            'GTR Skyline R34',
+            2,
+            0,
+            2568,
+            280,
+            0,
+            300,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensori parcheggio',
+            56225,
+            0,
+            1,
+            'B',
+            true,
+            'Skyline.png'
+
+        ),
+
+        new Veicolo(
+
+            26,
+            false,
+            'Lancia',
+            'Stratos',
+            2,
+            0,
+            2419,
+            330,
+            0,
+            400,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensori parcheggio',
+            59435,
+            0,
+            0,
+            'B',
+            true,
+            'Stratos.png'
+
+        ),
+
+        new Veicolo(
+
+            27,
+            false,
+            'KTM',
+            'Superduke 1290',
+            2,
+            0,
+            1301,
+            177,
+            0,
+            260,
+            'GPS',
+            'Manopole riscaldate',
+            'ABS',
+            68524,
+            1,
+            0,
+            'A',
+            true,
+            'Superduke1290.png'
+
+        ),
+
+        new Veicolo(
+
+            28,
+            false,
+            'Suzuki',
+            'Capuccino',
+            2,
+            0,
+            657,
+            65,
+            0,
+            150,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensore parcheggio',
+            34586,
+            0,
+            1,
+            'B',
+            true,
+            'SuzukiCapuccino.png'
+
+        ),
+
+        new Veicolo(
+
+            29,
+            false,
+            'Yamaha',
+            'Tenere',
+            2,
+            0,
+            698,
+            73.4,
+            0,
+            240,
+            'GPS',
+            'Manopole riscaldate',
+            'ABS',
+            58451,
+            1,
+            1,
+            'A2',
+            true,
+            'Tenere700.png'
+
+        ),
+
+        new Veicolo(
+
+            30,
+            false,
+            'Vovo',
+            'FH16 (2012)',
+            2,
+            2,
+            16100,
+            750,
+            1,
+            865,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensori parcheggio',
+            458451,
+            2,
+            0,
+            'C',
+            true,
+            'VolvoCamion.png'
+
+        ),
         
 
     ]
