@@ -67,6 +67,12 @@ export class VeicoloService{
 
         ),
 
+
     ]
+
+
+    getAll(){
+        return this.veicoli;
+    }
 
 }
