@@ -23,8 +23,13 @@ export class VeicoloService{
             'A',
             true,
 
-        )[{}
+        )
 
     ]
+
+
+    getAll(){
+        return this.veicoli;
+    }
 
 }
