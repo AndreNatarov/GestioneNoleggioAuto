@@ -525,7 +525,7 @@ export class VeicoloService{
             'Sedili riscaldati',
             'Sensori parcheggio',
             657855,
-            0,
+            2,
             0,
             'C',
             true,

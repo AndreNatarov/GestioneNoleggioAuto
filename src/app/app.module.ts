@@ -16,6 +16,9 @@ import { TendenzaComponent } from './components/tendenza/tendenza.component';
 import { VeicoloService } from './services/veicolo.service';
 import { HomeComponent } from './components/home/home.component';
 import { NoleggioComponent } from './components/noleggio/noleggio.component';
+import { PaginaAutoComponent } from './components/pagina-auto/pagina-auto.component';
+import { PaginaMotoComponent } from './components/pagina-moto/pagina-moto.component';
+import { PaginaCamionComponent } from './components/pagina-camion/pagina-camion.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,10 @@ import { NoleggioComponent } from './components/noleggio/noleggio.component';
     RicercaHomeComponent,
     TendenzaComponent,
     HomeComponent,
-    NoleggioComponent
+    NoleggioComponent,
+    PaginaAutoComponent,
+    PaginaMotoComponent,
+    PaginaCamionComponent
   ],
   imports: [
     BrowserModule,
