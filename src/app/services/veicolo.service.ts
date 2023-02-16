@@ -10,6 +10,7 @@ export class VeicoloService{
             'Honda',
             'CBR 1000',
             2,
+            0,
             217.5,
             999,
             0,
@@ -22,6 +23,7 @@ export class VeicoloService{
             1,
             'A',
             true,
+            'CBR1000'
 
         ),
         
@@ -30,6 +32,7 @@ export class VeicoloService{
             true,
             'Mazda',
             'Az1',
+            0,
             2,
             64,
             657,
@@ -43,6 +46,7 @@ export class VeicoloService{
             1,
             'B',
             true,
+            'AZ1'
 
         ),
 
@@ -52,18 +56,66 @@ export class VeicoloService{
             'Mercedes-Benz',
             'CLK GTR',
             2,
-            64,
-            657,
+            1,
+            600,
+            745.5,
             0,
-            150,
+            400,
             'GPS',
             'Sedili riscaldati',
             'Sensosri di parcheggio',
-            43278,
+            13959,
             0,
-            1,
+            0,
             'B',
             true,
+            'CLKGTR'
+
+        ),
+
+        new Veicolo(
+
+            false,
+            'Lamborghini',
+            'Countach',
+            2,
+            0,
+            375,
+            4971,
+            0,
+            789,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensosri di parcheggio',
+            984,
+            0,
+            0,
+            'B',
+            true,
+            'Countach'
+
+        ),
+
+        new Veicolo(
+
+            false,
+            'Daf',
+            '2021',
+            2,
+            2,
+            530,
+            7500,
+            1,
+            400,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensosri di parcheggio',
+            139459,
+            2,
+            0,
+            'C',
+            true,
+            'DafCamion'
 
         ),
 

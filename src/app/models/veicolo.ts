@@ -6,6 +6,7 @@ export class Veicolo{
         public marca:string,
         public modello:string,
         public numeroPosti:number,
+        public cambio:number,       //0 = Manuale, 1 = Sequenziale, 2 = Automatica
         public cavalli:number,
         public cilindrata:number,
         public carburante:number,   //0 = benzina, 1 = gasolio
@@ -18,6 +19,7 @@ export class Veicolo{
         public tagNazione:number,       //0 = Europea, 1 = Giapponese, 2 = Americana
         public patente:string, 
         public immagine:boolean,    //true = DX, false = SX
+        public nomeImmagine:string,
         
     ){}
 
