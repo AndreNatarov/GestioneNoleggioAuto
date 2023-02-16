@@ -2,6 +2,7 @@ export class Veicolo{
 
     constructor(
 
+        public tagTendenza: boolean,
         public marca:string,
         public modello:string,
         public prezzoGiornaliero:number,
@@ -12,7 +13,7 @@ export class Veicolo{
         public patente:string, 
         public immagine:boolean,    //true = DX, false = SX
         //Bisogna aggiungere specifiche del veicolo (array di array?)
-
+        
     ){}
 
 }

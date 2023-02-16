@@ -6,16 +6,6 @@ export class VeicoloService{
 
         new Veicolo(
 
-            'Honda',
-            'CBR 1000',
-            250,
-            'GPS',
-            32945,
-            'Moto',
-            'Giappone',
-            'A3',
-            true,
-
         )
 
     ]
