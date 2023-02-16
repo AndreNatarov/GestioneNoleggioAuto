@@ -15,6 +15,7 @@ import { RicercaHomeComponent } from './components/ricerca-home/ricerca-home.com
 import { TendenzaComponent } from './components/tendenza/tendenza.component';
 import { VeicoloService } from './services/veicolo.service';
 import { HomeComponent } from './components/home/home.component';
+import { NoleggioComponent } from './components/noleggio/noleggio.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { HomeComponent } from './components/home/home.component';
     TemplatesComponent,
     RicercaHomeComponent,
     TendenzaComponent,
-    HomeComponent
+    HomeComponent,
+    NoleggioComponent
   ],
   imports: [
     BrowserModule,
