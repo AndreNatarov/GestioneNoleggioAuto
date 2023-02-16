@@ -24,7 +24,7 @@ export class VeicoloService{
             1,
             'A',
             true,
-            'CBR1000'
+            'CBR1000.png'
 
         ),
         
@@ -48,7 +48,7 @@ export class VeicoloService{
             1,
             'B',
             true,
-            'AZ1'
+            'AZ1.png'
 
         ),
 
@@ -72,7 +72,7 @@ export class VeicoloService{
             0,
             'B',
             true,
-            'CLKGTR'
+            'CLKGTR.png'
 
         ),
 
@@ -96,7 +96,7 @@ export class VeicoloService{
             0,
             'B',
             true,
-            'Countach'
+            'Countach.png'
 
         ),
 
@@ -120,7 +120,7 @@ export class VeicoloService{
             0,
             'C',
             true,
-            'DafCamion'
+            'DafCamion.png'
 
         ),
 
@@ -144,7 +144,7 @@ export class VeicoloService{
             0,
             'A',
             true,
-            'DucatiStreetFighter'
+            'DucatiStreetFighter.png'
 
         ),
 
@@ -168,7 +168,7 @@ export class VeicoloService{
             0,
             'B',
             true,
-            'E30M3'
+            'E30M3.png'
 
         ),
 
@@ -192,7 +192,7 @@ export class VeicoloService{
             0,
             'B',
             true,
-            'E92M3'
+            'E92M3.png'
 
         ),
 
@@ -217,7 +217,7 @@ export class VeicoloService{
             1,
             'B',
             true,
-            'Eclipse'
+            'Eclipse.png'
 
         ),
 
@@ -232,7 +232,7 @@ export class VeicoloService{
             2000,
             300,
             0,
-            150,
+            200,
             'GPS',
             'Sedili riscaldati',
             'Sensori parcheggio',
@@ -241,7 +241,7 @@ export class VeicoloService{
             1,
             'B',
             true,
-            'EvoX'
+            'EvoX.png'
 
         ),
 
@@ -265,33 +265,155 @@ export class VeicoloService{
             0,
             'B',
             true,
-            'Fiat500'
+            'Fiat500.png'
 
         ),
 
         new Veicolo(
 
             12,
-            true,
+            false,
             'Ford',
-            '500',
-            4,
+            '1842T',
+            2,
+            2,
+            8000,
+            420,
             0,
-            499.5,
-            18,
-            0,
-            150,
+            800,
             'GPS',
             'Sedili riscaldati',
             'Sensori parcheggio',
-            54549,
+            545496,
+            2,
+            2,
+            'C',
+            true,
+            'FordCamion.png'
+
+        ),
+
+        new Veicolo(
+
+            13,
+            false,
+            'Suzuki',
+            'GSXR 1000',
+            1,
+            0,
+            1000,
+            201.9,
+            0,
+            230,
+            'GPS',
+            'ABS',
+            'Manopole riscaldate',
+            6535,
+            1,
+            1,
+            'A',
+            true,
+            'GSXR1000.png'
+
+        ),
+
+        new Veicolo(
+
+            14,
+            false,
+            'Porsche',
+            'GT3 Rs',
+            2,
+            1,
+            3996,
+            525,
+            0,
+            310,
+            'GPS',
+            'Sensori parcheggio',
+            'Sedili riscaldati',
+            35253,
             0,
             0,
             'B',
             true,
-            'Fiat500'
+            'GT3RS.png'
 
         ),
+
+        new Veicolo(
+
+            15,
+            false,
+            'Suzuki',
+            'Hayabusa',
+            1,
+            0,
+            1340,
+            190,
+            0,
+            225,
+            'GPS',
+            'ABS',
+            'Manopole riscaldate',
+            25532,
+            1,
+            1,
+            'A',
+            true,
+            'Hayabusa.png'
+
+        ),
+
+        new Veicolo(
+
+            16,
+            false,
+            'Iveco',
+            'Stralis',
+            2,
+            2,
+            7790,
+            440,
+            1,
+            780,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensori parcheggio',
+            205213,
+            1,
+            1,
+            'C',
+            true,
+            'IvecoCamion.png'
+
+        ),
+
+        new Veicolo(
+
+            17,
+            false,
+            'Man',
+            'TGX Euro 6',
+            2,
+            2,
+            7790,
+            470,
+            1,
+            780,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensori parcheggio',
+            205213,
+            1,
+            1,
+            'C',
+            true,
+            'ManCamion.png'
+
+        ),
+
+        
 
     ]
 
