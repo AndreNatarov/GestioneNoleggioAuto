@@ -188,6 +188,52 @@ export class VeicoloService{
 
         ),
 
+        new Veicolo(
+
+            true,
+            'BMW',
+            'E30 M3',
+            4,
+            0,
+            3999,
+            350,
+            0,
+            200,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensori parcheggio',
+            5433,
+            0,
+            0,
+            'B',
+            true,
+            'E30M3'
+
+        ),
+
+        new Veicolo(
+
+            false,
+            'Mitsubishi',
+            'Eclipse',
+            4,
+            0,
+            1997,
+            145,
+            0,
+            200,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensori parcheggio',
+            5433,
+            0,
+            0,
+            'B',
+            true,
+            'E30M3'
+
+        ),
+
 
 
     ]

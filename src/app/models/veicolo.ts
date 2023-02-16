@@ -6,9 +6,9 @@ export class Veicolo{
         public marca:string,
         public modello:string,
         public numeroPosti:number,
-        public cambio:number,       //0 = Manuale, 1 = Sequenziale, 2 = Automatica
-        public cavalli:number,
+        public cambio:number,       //0 = Manuale, 1 = Sequenziale
         public cilindrata:number,
+        public cavalli:number,
         public carburante:number,   //0 = benzina, 1 = gasolio
         public prezzoGiornaliero:number,
         public optional1:string,
