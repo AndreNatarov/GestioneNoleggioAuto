@@ -23,7 +23,49 @@ export class VeicoloService{
             'A',
             true,
 
-        )[{}
+        ),
+        
+        new Veicolo(
+
+            true,
+            'Mazda',
+            'Az1',
+            2,
+            64,
+            657,
+            0,
+            150,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensosri di parcheggio',
+            43278,
+            0,
+            1,
+            'B',
+            true,
+
+        ),
+
+        new Veicolo(
+
+            false,
+            'Mercedes-Benz',
+            'CLK GTR',
+            2,
+            64,
+            657,
+            0,
+            150,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensosri di parcheggio',
+            43278,
+            0,
+            1,
+            'B',
+            true,
+
+        ),
 
     ]
 
