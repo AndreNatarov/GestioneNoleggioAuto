@@ -23,7 +23,7 @@ export class VeicoloService{
             1,
             'A',
             true,
-            'CBR1000'
+            'CBR1000.png'
 
         ),
         
