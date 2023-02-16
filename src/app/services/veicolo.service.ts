@@ -106,7 +106,7 @@ export class VeicoloService{
             530,
             7500,
             1,
-            400,
+            800,
             'GPS',
             'Sedili riscaldati',
             'Sensosri di parcheggio',
@@ -118,6 +118,76 @@ export class VeicoloService{
             'DafCamion'
 
         ),
+
+        new Veicolo(
+
+            true,
+            'Ducati',
+            'Street Fighter',
+            1,
+            0,
+            1103,
+            208,
+            0,
+            250,
+            'GPS',
+            'Cambio Elettronico',
+            'Manopole riscaldate',
+            14590,
+            1,
+            0,
+            'A',
+            true,
+            'DucatiStreetFighter'
+
+        ),
+
+        new Veicolo(
+
+            true,
+            'BMW',
+            'E30 M3',
+            4,
+            0,
+            3999,
+            350,
+            0,
+            200,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensori parcheggio',
+            5433,
+            0,
+            0,
+            'B',
+            true,
+            'E30M3'
+
+        ),
+
+        new Veicolo(
+
+            false,
+            'BMW',
+            'E92 M3',
+            4,
+            0,
+            3999,
+            420,
+            0,
+            200,
+            'GPS',
+            'Sedili riscaldati',
+            'Sensori parcheggio',
+            5463,
+            0,
+            0,
+            'B',
+            true,
+            'E92M3'
+
+        ),
+
 
 
     ]
