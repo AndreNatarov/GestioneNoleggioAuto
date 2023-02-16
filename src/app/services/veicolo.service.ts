@@ -6,7 +6,12 @@ export class VeicoloService{
 
         new Veicolo(
 
-        )
+            true,
+            'Honda',
+            'CBR 1000',
+
+
+        )[{}
 
     ]
 

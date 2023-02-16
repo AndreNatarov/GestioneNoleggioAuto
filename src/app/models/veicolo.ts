@@ -5,10 +5,10 @@ export class Veicolo{
         public tagTendenza: boolean,
         public marca:string,
         public modello:string,
-        public nuimeroPosti:number,
+        public numeroPosti:number,
         public cavalli:number,
         public cilindrata:number,
-        public carburante:number,
+        public carburante:number,   //0 = benzina, 1 = gasolio
         public prezzoGiornaliero:number,
         public optional1:string,
         public optional2:string,
