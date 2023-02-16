@@ -724,6 +724,54 @@ export class VeicoloService{
             'VolvoCamion.png'
 
         ),
+
+        new Veicolo(
+
+            31,
+            false,
+            'Yamaha',
+            'KJ6',
+            2,
+            0,
+            600,
+            77.5,
+            0,
+            230,
+            'GPS',
+            'Manopole riscaldate',
+            'ABS',
+            65185,
+            1,
+            1,
+            'A2',
+            true,
+            'XJ6.png'
+
+        ),
+
+        new Veicolo(
+
+            32,
+            false,
+            'Kawasaki',
+            'ZX14R',
+            2,
+            0,
+            1352,
+            190.3,
+            0,
+            250,
+            'GPS',
+            'Manopole riscaldate',
+            'ABS',
+            51468,
+            1,
+            1,
+            'A',
+            true,
+            'ZX14R.png'
+
+        ),
         
 
     ]
