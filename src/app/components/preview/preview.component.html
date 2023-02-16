@@ -1,31 +1,38 @@
-<div class="d-flex justify-content-center m-2">
-    <div class="card p-2" style="width: 33%;" onclick="alert('iaoo')">
-        <div class="row g-0">
-            <div class="col-md-4">
-                <img [src]="'../../../assets/DX_' + veicoli[0].nomeImmagine"  class="img-fluid" alt="Immagine non presente">
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                <h5 class="card-title">{{veicoli[0].marca}}  {{veicoli[0].modello}}</h5>
-                <div class="row py-2">
-                    <div class="col">
-                          <p class="card-text">Chilometri: {{veicoli[0].chilometraggio}}</p>
-                    </div>
-                    <div class="col">
-                        <ng-container *ngIf="veicoli[0].cambio == 0; else sus">Cambio: Manuale</ng-container> <ng-template #sus><ng-container *ngIf="veicoli[0].cambio == 2, else sus2">Cambio: Automatico</ng-container></ng-template> <ng-template #sus2>Cambio: Sequenziale </ng-template>
-                    </div>
+<div *ngFor="let veicolo of veicoli" class="float-start" style="width: 33%;">
+    <div *ngIf="veicolo.tagTendenza">
+        <div class="d-flex m-2">
+        <div class="card p-2" style=" border-color: red;" onclick="alert('iaoo')">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img [src]="'../../../assets/DX_' + veicolo.nomeImmagine"  height="160px" class="img-fluid" alt="Immagine non presente">
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <p>Patente necessaria: {{veicoli[0].patente}}</p>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">{{veicolo.marca}}  {{veicolo.modello}}</h5>
+                        <div class="row py-2">
+                            <div class="col">
+                                <p class="card-text">Chilometri: {{veicolo.chilometraggio}}</p>
+                            </div>
+                            <div class="col">
+                                <ng-container *ngIf="veicolo.cambio == 0; else sus">Cambio: Manuale</ng-container> <ng-template #sus><ng-container *ngIf="veicolo.cambio == 2, else sus2">Cambio: Automatico</ng-container></ng-template> <ng-template #sus2>Cambio: Sequenziale </ng-template>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p>Patente necessaria: {{veicolo.patente}}</p>
+                            </div>
+                            <div class="col">
+                                <p>Prezzo giornaliero: <b>{{veicolo.prezzoGiornaliero | currency: 'EUR'}}</b></p>
+                            </div>
+                        </div>
+                
+                        </div>
                     </div>
-                    <div class="col">
-                        <p>Prezzo giornaliero: <b>{{veicoli[0].prezzoGiornaliero | currency: 'EUR'}}</b></p>
-                    </div>
-                </div>
-               
                 </div>
             </div>
         </div>
-    </div>
-</div>   
+        
+    </div>  
+</div>     
+     
+
