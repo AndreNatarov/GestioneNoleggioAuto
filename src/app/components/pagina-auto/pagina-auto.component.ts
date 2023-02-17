@@ -12,4 +12,7 @@ export class PaginaAutoComponent {
   constructor(private service:VeicoloService){
     this.veicoli = service.getAll();
   }
+  AMONGUSS(params:string) {
+    alert(`${document.getElementById(params)?.innerHTML}`);
+  }
 }

@@ -11,7 +11,6 @@ import { PreviewComponent } from './components/preview/preview.component';
 import { ModulesComponent } from './components/modules/modules.component';
 import { VeicoloComponent } from './components/modules/veicolo/veicolo.component';
 import { TemplatesComponent } from './components/templates/templates.component';
-import { RicercaHomeComponent } from './components/ricerca-home/ricerca-home.component';
 import { TendenzaComponent } from './components/tendenza/tendenza.component';
 import { VeicoloService } from './services/veicolo.service';
 import { HomeComponent } from './components/home/home.component';
@@ -35,7 +34,6 @@ import { FormsModule } from '@angular/forms';
     ModulesComponent,
     VeicoloComponent,
     TemplatesComponent,
-    RicercaHomeComponent,
     TendenzaComponent,
     HomeComponent,
     NoleggioComponent,
