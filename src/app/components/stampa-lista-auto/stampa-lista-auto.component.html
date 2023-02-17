@@ -1,11 +1,9 @@
-<div class="text-center fs-1 py-5 my-3 text-white" style="background-color: rgba(255, 30, 0, 0.678);"><b>! VEICOLI IN TENDENZA !</b></div>
 <div *ngFor="let veicolo of veicoli" class="float-start" style="width: 33%;">
-    <div *ngIf="veicolo.tagTendenza">
         <div class="d-flex m-2" >
-        <div class="card p-2" style=" border-color: red;" onclick="alert('iaoo')">
+        <div class="card p-2" style=" border-color: lightgrey" onclick="alert('iaoo')">
             <div class="row g-0">
-                <div class="col-md-4">
-                    <img [src]="'../../../assets/DX_' + veicolo.nomeImmagine"  height="160px" class="img-fluid" alt="Immagine non presente">
+                <div class="col-md-2">
+                    <img [src]="'../../../assets/DX_' + veicolo.nomeImmagine" [id]="veicolo.id" height="160px" class="img-fluid" alt="Immagine non presente">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
@@ -31,8 +29,5 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-    </div>  
-</div> 
-
+        </div> 
+</div>     

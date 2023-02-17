@@ -19,7 +19,6 @@ import { NoleggioComponent } from './components/noleggio/noleggio.component';
 import { PaginaAutoComponent } from './components/pagina-auto/pagina-auto.component';
 import { PaginaMotoComponent } from './components/pagina-moto/pagina-moto.component';
 import { PaginaCamionComponent } from './components/pagina-camion/pagina-camion.component';
-import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -39,7 +38,9 @@ import { FormsModule } from '@angular/forms';
     NoleggioComponent,
     PaginaAutoComponent,
     PaginaMotoComponent,
-    PaginaCamionComponent
+    PaginaCamionComponent,
+    StampaListaAutoComponent,
+    InfoMezzoComponent
   ],
   imports: [
     BrowserModule,
