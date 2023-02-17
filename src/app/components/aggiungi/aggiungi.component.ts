@@ -50,7 +50,7 @@ export class AggiungiComponent {
       this.Tipo,
       this.Nazione,
       this.Patente,
-      true, ""
+      true, "placeholder.png"
       ))
   }
 
