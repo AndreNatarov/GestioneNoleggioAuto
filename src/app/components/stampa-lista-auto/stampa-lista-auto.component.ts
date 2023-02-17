@@ -14,11 +14,8 @@ export class StampaListaAutoComponent {
     this.veicoli = service.getAll();
   }
 
-  /*
-  btnRimuovi() {
-    var i = document.getElementById("1").innerHTML= '';
-    delete this.veicoli[i];
-  }
-  */         
+  metodo(id:number){
+    this.router.navigate(['dettaglio', id]).then(d => window.location.reload());
+  }       
 }
 
