@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-ricerca',
@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./ricerca.component.css']
 })
 export class RicercaComponent {
+  @Output() cercaEvent = new EventEmitter();
+  
+  valore = '';
 
+  cerca()
+  { 
+    this.cercaEvent.emit(this.valore);   
+  }
 }
