@@ -1,8 +1,75 @@
-<form>
-    <div class="container d-flex justify-content-center">
-        <div class="">
-            Marca: 
-            <input name="inputText" type="text">
-        </div>
+<form style="padding-inline: 20%;">
+    <div class="form-group">
+        <div class="row py-2">
+            <div class="col">
+                <label for="Marca">Marca</label>
+                <input type="text" class="form-control" name="Marca" [(ngModel)]="Marca" id="Marca">
+            </div> 
+            <div class="col">
+                <label for="Modello">Modello</label>
+                <input type="text" class="form-control" [(ngModel)]="Modelli" id="Modello">
+            </div>
+            <div class="col">
+                <label for="Cilindrata">Cilindrata</label>
+                <input type="number" class="form-control" [(ngModel)]="Cilindrata" id="Cilindrata">
+            </div>
+        </div> 
+        <div class="row py-2">
+            <div class="col">
+                <label for="Potenza">Potenza</label>
+                <input type="number" class="form-control" [(ngModel)]="Cavalli"  id="Potenza">
+            </div> 
+            <div class="col">
+                <label for="cambio">Cambio</label>
+                <input type="number" class="form-control" [(ngModel)]="Cambio" placeholder="0 = Manuale, 1 = Sequenziale, 2 = Automatico" id="Cambio">
+            </div>
+            <div class="col">
+                <label for="Carburante">Carburante</label>
+                <input type="number" class="form-control" [(ngModel)]="Carburante" placeholder="0 = benzina, 1 = gasolio" id="Carburante">
+            </div>
+        </div> 
+        <div class="row py-2">
+            <div class="col">
+                <label for="Posti">Posti</label>
+                <input type="number" class="form-control" [(ngModel)]="Posti" id="Posti">
+            </div> 
+            <div class="col">
+                <label for="Chilometraggio">Chilometraggio</label>
+                <input type="number" class="form-control" [(ngModel)]="Chilometraggio" id="Chilometraggio">
+            </div>
+            <div class="col">
+                <label for="Tipo">Tipo veicolo</label>
+                <input type="number" class="form-control" [(ngModel)]="Tipo" placeholder="0 = auto, 1 = moto, 2 = camion" id="Tipo">
+            </div>
+        </div> 
+        <div class="row py-2">
+            <div class="col">
+                <label for="Optional1">Optional1</label>
+                <input type="text" class="form-control" [(ngModel)]="Optional1" placeholder="" id="Optional1">
+            </div> 
+            <div class="col">
+                <label for="Optional2">Optional2</label>
+                <input type="text" class="form-control" [(ngModel)]="Optional2" id="Optional2">
+            </div>
+            <div class="col">
+                <label for="Optional3">Optional3</label>
+                <input type="text" class="form-control" [(ngModel)]="Optional3" id="Optional3">
+            </div>
+        </div> 
+        <div class="row py-2">
+            <div class="col">
+                <label for="Nazione">Nazione</label>
+                <input type="number" class="form-control" [(ngModel)]="Nazione" placeholder="0 = Europea, 1 = Giapponese, 2 = Americana" id="Nazione">
+            </div> 
+            <div class="col">
+                <label for="Patemte">Tipologia patente necessaria</label>
+                <input type="text" class="form-control" name="Patente" [(ngModel)]="Patente" id="Patente">
+            </div> 
+            <div class="col">
+                <label style="width: 27%; padding-top: 5%;" for="check">In tendenza?</label>
+                <input type="checkbox" name="check" [(ngModel)]="checkTendenza" id="checkTendenza">
+            </div>
+        </div> 
+        <button class="btn btn-success w-100" (click)="crea()">Crea</button>
     </div>
-</form>
+  </form>
