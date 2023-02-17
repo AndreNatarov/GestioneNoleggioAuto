@@ -5,7 +5,7 @@
 <div *ngFor="let veicolo of veicoli" class="float-start" style="width: 33%;">
         <div *ngIf="veicolo.tagVeicolo == 1">
             <div class="d-flex m-2 tendenzaHover" >
-                <div class="card p-2" style=" border-color: red;" onclick="alert('iaoo')">
+                <div class="card p-2" style=" border-color: red;" (click)="metodo(veicolo.id)">
                     <div class="row g-0">
                         <div class="col-md-2">
                             <img [src]="'../../../assets/DX_' + veicolo.nomeImmagine"  height="160px" class="img-fluid" alt="Immagine non presente">
