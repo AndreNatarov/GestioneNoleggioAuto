@@ -22,6 +22,7 @@ import { StampaListaAutoComponent } from './components/stampa-lista-auto/stampa-
 import { InfoMezzoComponent } from './components/info-mezzo/info-mezzo.component';
 import { FormsModule } from '@angular/forms';
 import { LogoComponent } from './components/logo/logo.component';
+import { AggiungiComponent } from './components/aggiungi/aggiungi.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { LogoComponent } from './components/logo/logo.component';
     PaginaCamionComponent,
     StampaListaAutoComponent,
     InfoMezzoComponent,
-    LogoComponent
+    LogoComponent,
+    AggiungiComponent
   ],
   imports: [
     BrowserModule,
