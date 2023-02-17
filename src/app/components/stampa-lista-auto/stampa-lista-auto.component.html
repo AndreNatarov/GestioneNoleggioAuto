@@ -1,4 +1,5 @@
-<div *ngFor="let veicolo of veicoli" class="float-start" style="width: 33%;">
+<button type="button" class="btn btn-success"><b>+</b> Aggiungi veicolo</button><br><br>
+<div *ngFor="let veicolo of veicoli" class="float-start" style="width: 33%;" [id]="veicolo.id">
         <div class="d-flex m-2" >
         <div class="card p-2" style=" border-color: lightgrey" onclick="alert('iaoo')">
             <div class="row g-0">
@@ -27,8 +28,8 @@
                 
                         </div>
                     </div>
-                    <button type="button" class="btn btn-danger float-end" onclick="alert('ZIO PERA')">Rimuovi</button>
+                    <button type="button" class="btn btn-danger float-end">Rimuovi</button>
                 </div>
             </div>
         </div> 
-</div>     
+    </div>     

@@ -12,4 +12,12 @@ export class StampaListaAutoComponent {
   constructor(private service:VeicoloService){
     this.veicoli = service.getAll();
   }
+
+  /*
+  btnRimuovi() {
+    var i = document.getElementById("1").innerHTML= '';
+    delete this.veicoli[i];
+  }
+  */         
 }
+
