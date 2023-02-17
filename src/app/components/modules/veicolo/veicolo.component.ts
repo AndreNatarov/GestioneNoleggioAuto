@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Veicolo } from 'src/app/models/veicolo';
 
 @Component({
   selector: 'app-veicolo',
