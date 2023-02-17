@@ -1,0 +1,26 @@
+<div class="px-1">
+    <div class="row">
+        <div class="col w-25">
+            <img class="col w-100" [src]="'../../../assets/SX_'+veicoli[1].nomeImmagine"> 
+        </div>
+        <div class="col w-25">
+           <img class="col w-100" [src]="'../../../assets/DX_'+veicoli[1].nomeImmagine"> 
+        </div>
+        
+        <div class="col w-25">
+            <div class="fs-1">{{veicoli[1].marca}}  {{veicoli[1].modello}} <br> <div class="fs-5 text-secondary">Cilindrata: {{veicoli[1].cilindrata}}cc<br>Potenza: {{veicoli[1].cavalli}} hp<br> <ng-container *ngIf="veicoli[1].cambio == 0; else sus">Cambio: Manuale</ng-container> <ng-template #sus><ng-container *ngIf="veicoli[1].cambio == 2, else sus2">Cambio: Automatico</ng-container></ng-template> <ng-template #sus2>Cambio: Sequenziale </ng-template> <br> <ng-container *ngIf="veicoli[1].carburante == 0; else sus">Carburante: Benzina</ng-container> <ng-template #sus>Carburante: Gasolio</ng-template> <br> Chilometraggio: {{veicoli[1].chilometraggio}} km <br> Patente necessaria: {{veicoli[1].patente}} </div> </div> 
+        </div>
+        <div class="col w-25">
+            <div class="fs-1">
+                Generalità
+            </div>
+            <div class="fs-4">
+                La {{veicoli[1].marca}}  {{veicoli[1].modello}} è fornita di vari optional, tra i quali  {{veicoli[1].optional1}}, {{veicoli[1].optional2}} e {{veicoli[1].optional3}}, ed è proveniente  <ng-container *ngIf="veicoli[1].tagNazione == 0; else sus">dall'Europa</ng-container> <ng-template #sus><ng-container *ngIf="veicoli[1].tagNazione == 1, else sus2">dal Giappone</ng-container></ng-template> <ng-template #sus2>dall'America </ng-template>.
+            </div>
+            
+        </div>
+    </div>
+
+</div>   
+
+

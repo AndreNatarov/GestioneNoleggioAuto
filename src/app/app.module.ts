@@ -19,6 +19,8 @@ import { NoleggioComponent } from './components/noleggio/noleggio.component';
 import { PaginaAutoComponent } from './components/pagina-auto/pagina-auto.component';
 import { PaginaMotoComponent } from './components/pagina-moto/pagina-moto.component';
 import { PaginaCamionComponent } from './components/pagina-camion/pagina-camion.component';
+import { StampaListaAutoComponent } from './components/stampa-lista-auto/stampa-lista-auto.component';
+import { InfoMezzoComponent } from './components/info-mezzo/info-mezzo.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { PaginaCamionComponent } from './components/pagina-camion/pagina-camion.
     NoleggioComponent,
     PaginaAutoComponent,
     PaginaMotoComponent,
-    PaginaCamionComponent
+    PaginaCamionComponent,
+    StampaListaAutoComponent,
+    InfoMezzoComponent
   ],
   imports: [
     BrowserModule,
