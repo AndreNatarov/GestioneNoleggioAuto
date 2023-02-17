@@ -1,9 +1,9 @@
 <div *ngFor="let veicolo of veicoli" class="float-start" style="width: 33%;">
         <div class="d-flex m-2" >
-        <div class="card p-2" style=" border-color: lightgrey" onclick="alert('iaoo')">
+        <div class="card p-2" style=" border-color: lightgrey" (click)="metodo(veicolo.id)">
             <div class="row g-0">
                 <div class="col-md-2">
-                    <img [src]="'../../../assets/DX_' + veicolo.nomeImmagine" [id]="veicolo.id" height="160px" class="img-fluid" alt="Immagine non presente">
+                    <img [src]="'../../../assets/DX_' + veicolo.nomeImmagine" height="160px" class="img-fluid" alt="Immagine non presente">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
@@ -27,7 +27,7 @@
                 
                         </div>
                     </div>
-                    <button type="button" class="btn btn-danger float-end" onclick="alert('ZIO PERA')">Rimuovi</button>
+                    <button type="button" class="btn btn-danger float-end">Rimuovi</button>
                 </div>
             </div>
         </div> 
