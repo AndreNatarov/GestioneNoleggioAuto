@@ -12,4 +12,7 @@ export class TendenzaComponent {
   constructor(private service:VeicoloService){
     this.veicoli = service.getAll();
   }
+  cerca(valore:string) {
+    this.veicoli = this.service.cerca(valore);
+}
 }

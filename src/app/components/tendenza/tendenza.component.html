@@ -1,4 +1,9 @@
 <div class="text-center fs-1">! VEICOLI IN TENDENZA !</div>
+<app-ricerca (cercaEvent)="cerca($event)"></app-ricerca>
+<ng-container *ngFor="let l of veicoli">
+    <app-veicolo [Veicolo]="l"></app-veicolo>
+</ng-container>
+
 <div *ngFor="let veicolo of veicoli" class="float-start" style="width: 33%;">
     <div *ngIf="veicolo.tagTendenza">
         <div class="d-flex m-2" >
