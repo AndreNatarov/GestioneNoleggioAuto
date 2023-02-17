@@ -11,10 +11,16 @@ import { PreviewComponent } from './components/preview/preview.component';
 import { ModulesComponent } from './components/modules/modules.component';
 import { VeicoloComponent } from './components/modules/veicolo/veicolo.component';
 import { TemplatesComponent } from './components/templates/templates.component';
-import { RicercaHomeComponent } from './components/ricerca-home/ricerca-home.component';
 import { TendenzaComponent } from './components/tendenza/tendenza.component';
 import { VeicoloService } from './services/veicolo.service';
 import { HomeComponent } from './components/home/home.component';
+import { NoleggioComponent } from './components/noleggio/noleggio.component';
+import { PaginaAutoComponent } from './components/pagina-auto/pagina-auto.component';
+import { PaginaMotoComponent } from './components/pagina-moto/pagina-moto.component';
+import { PaginaCamionComponent } from './components/pagina-camion/pagina-camion.component';
+import { StampaListaAutoComponent } from './components/stampa-lista-auto/stampa-lista-auto.component';
+import { InfoMezzoComponent } from './components/info-mezzo/info-mezzo.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,12 +34,18 @@ import { HomeComponent } from './components/home/home.component';
     ModulesComponent,
     VeicoloComponent,
     TemplatesComponent,
-    RicercaHomeComponent,
     TendenzaComponent,
-    HomeComponent
+    HomeComponent,
+    NoleggioComponent,
+    PaginaAutoComponent,
+    PaginaMotoComponent,
+    PaginaCamionComponent,
+    StampaListaAutoComponent,
+    InfoMezzoComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule
   ],
   providers: [VeicoloService],

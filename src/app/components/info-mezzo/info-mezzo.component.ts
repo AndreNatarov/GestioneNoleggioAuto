@@ -3,16 +3,13 @@ import { Veicolo } from 'src/app/models/veicolo';
 import { VeicoloService } from 'src/app/services/veicolo.service';
 
 @Component({
-  selector: 'app-tendenza',
-  templateUrl: './tendenza.component.html',
-  styleUrls: ['./tendenza.component.css']
+  selector: 'app-info-mezzo',
+  templateUrl: './info-mezzo.component.html',
+  styleUrls: ['./info-mezzo.component.css']
 })
-export class TendenzaComponent {
+export class InfoMezzoComponent {
   veicoli:Veicolo[];
   constructor(private service:VeicoloService){
     this.veicoli = service.getAll();
   }
-  cerca(valore:string) {
-    this.veicoli = this.service.cerca(valore);
-}
 }

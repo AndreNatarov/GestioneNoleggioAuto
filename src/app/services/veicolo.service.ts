@@ -34,15 +34,15 @@ export class VeicoloService{
             true,
             'Mazda',
             'Az1',
-            0,
             2,
+            0,
             64,
             657,
             0,
             150,
             'GPS',
             'Sedili riscaldati',
-            'Sensosri di parcheggio',
+            'Sensori di parcheggio',
             43278,
             0,
             1,
@@ -66,7 +66,7 @@ export class VeicoloService{
             400,
             'GPS',
             'Sedili riscaldati',
-            'Sensosri di parcheggio',
+            'Sensori di parcheggio',
             13959,
             0,
             0,
@@ -87,11 +87,11 @@ export class VeicoloService{
             375,
             4971,
             0,
-            789,
+            400,
             'GPS',
             'Sedili riscaldati',
-            'Sensosri di parcheggio',
-            984,
+            'Sensori di parcheggio',
+            9844,
             0,
             0,
             'B',
@@ -114,7 +114,7 @@ export class VeicoloService{
             800,
             'GPS',
             'Sedili riscaldati',
-            'Sensosri di parcheggio',
+            'Sensori di parcheggio',
             139459,
             2,
             0,
@@ -525,7 +525,7 @@ export class VeicoloService{
             'Sedili riscaldati',
             'Sensori parcheggio',
             657855,
-            0,
+            2,
             0,
             'C',
             true,
@@ -780,5 +780,10 @@ export class VeicoloService{
     getAll(){
         return this.veicoli;
     }
+
+    cerca(valore: string): Veicolo[] {
+        return this.veicoli.filter( l => l.marca.includes(valore) || l.modello.includes(valore));    
+    }
+
 
 }
