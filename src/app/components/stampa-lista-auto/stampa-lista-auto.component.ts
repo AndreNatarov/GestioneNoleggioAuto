@@ -13,8 +13,12 @@ export class StampaListaAutoComponent {
   constructor(private service:VeicoloService, private router:Router){
     this.veicoli = service.getAll();
   }
-  metodo(id:number){
-    this.router.navigate(['dettaglio', id]).then(d => window.location.reload());
+
+  /*
+  btnRimuovi() {
+    var i = document.getElementById("1").innerHTML= '';
+    delete this.veicoli[i];
   }
-  
+  */         
 }
+
