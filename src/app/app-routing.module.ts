@@ -16,7 +16,7 @@ const routes: Routes = [
 { path : 'auto', component : PaginaAutoComponent},
 { path : 'moto', component : PaginaMotoComponent},
 { path : 'camion', component : PaginaCamionComponent},
-{ path : 'dettaglio', component : DettaglioAutoComponent},
+{ path : 'dettaglio/:id', component : DettaglioAutoComponent},
 
 ];
 
