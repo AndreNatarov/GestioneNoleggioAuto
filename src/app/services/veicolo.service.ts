@@ -781,7 +781,7 @@ export class VeicoloService{
     }
 
     cerca(valore: string): Veicolo[] {
-        return this.veicoli.filter( l => l.marca.includes(valore) || l.modello.includes(valore));    
+        return this.veicoli.filter( l => l.marca?.includes(valore) || l.modello?.includes(valore));    
     }
 
     getOne(id:number){

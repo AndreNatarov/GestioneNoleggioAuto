@@ -27,7 +27,7 @@ export class AggiungiComponent {
   Optional3?:string;
   Chilometraggio?:number;
   Nazione?:number;
-  Tipo?:string;
+  Tipo?:number;
   Patente?:string;
 
   crea(){
