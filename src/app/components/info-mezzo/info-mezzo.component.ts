@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Veicolo } from 'src/app/models/veicolo';
 import { VeicoloService } from 'src/app/services/veicolo.service';
 
@@ -8,8 +9,11 @@ import { VeicoloService } from 'src/app/services/veicolo.service';
   styleUrls: ['./info-mezzo.component.css']
 })
 export class InfoMezzoComponent {
-  veicoli:Veicolo[];
-  constructor(private service:VeicoloService){
-    this.veicoli = service.getAll();
+  veicolo?:Veicolo;
+  id : any= '';
+  constructor(private service:VeicoloService, private route:ActivatedRoute){
+    this.id =+ route.snapshot.params['id']
+    this.veicolo = service.getOne(this.id)
   }
+
 }

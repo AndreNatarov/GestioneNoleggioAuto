@@ -776,7 +776,6 @@ export class VeicoloService{
 
     ]
 
-
     getAll(){
         return this.veicoli;
     }
@@ -785,5 +784,8 @@ export class VeicoloService{
         return this.veicoli.filter( l => l.marca.includes(valore) || l.modello.includes(valore));    
     }
 
+    getOne(id:number){
+        return this.veicoli.find(v => v.id == id);
+    }
 
 }
