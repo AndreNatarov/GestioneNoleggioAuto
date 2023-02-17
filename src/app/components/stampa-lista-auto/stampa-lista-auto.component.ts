@@ -14,8 +14,20 @@ export class StampaListaAutoComponent {
     this.veicoli = service.getAll();
   }
 
+  btnRimuovi(id:number){
+
+    delete this.veicoli[id-1];
+
+  }
+
   metodo(id:number){
     this.router.navigate(['dettaglio', id]).then(d => window.location.reload());
   }       
+
+  cerca(valore:string) {
+    this.veicoli = this.service.cerca(valore);
+  }
+
+  
 }
 
